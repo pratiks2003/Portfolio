@@ -1,0 +1,180 @@
+ *{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"gilroy";
+ }
+ html , body{
+
+    width: 100%;
+    height: 100% ;
+ }
+ #main{
+
+    width: 100%;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+ }
+ #back{
+
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+ }
+ #top{
+   pointer-events: none;
+position: absolute;
+top: 0;
+left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(128, 128, 128, 0.224); */
+ }
+
+ #workingArea{
+   position: relative;
+margin:0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    /* border: 1px solid; */
+
+ }
+
+ #nav{
+   pointer-events: all;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+ }
+
+ #nav img {
+    height: 25px ;
+ }
+
+ #nleft , #nright{
+    display: flex; 
+    gap: 40px;
+    align-items: center;
+    
+    
+ }
+
+ #nleft a {
+text-decoration: none;
+text-transform: uppercase;
+font-size: 13px;
+font-weight: 600;
+letter-spacing: 2px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ } 
+
+ #nright a {
+text-decoration: none;
+text-transform: uppercase;
+font-size: 13px;
+font-weight: 600;
+letter-spacing: 2px;
+    color: white;
+    
+ } 
+ #hero{
+   position: absolute;
+   top: 50%;
+   left: 0;
+   transform: translate(0%,-50%);
+   display: flex;
+   justify-content: space-between;
+
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: #fff;  */
+
+ } 
+ #heroleft{
+
+   min-width: 50%;
+   /* height: 100px; */
+   /* background-color: rgb(174, 174, 35); */
+ }
+ #heroright{
+
+   min-width: 35%;
+   /* height: 100px; */
+   /* background-color: rgb(42, 245, 221); */
+ }
+#heroleft .elm {
+   position: relative; 
+   height: 10vw;
+   overflow: hidden;
+
+}
+
+ #heroleft .elm h1:nth-child(1) {
+   top: 0;
+ }
+ #heroleft .elm h1 {
+   position: absolute;
+   top: 100%;
+   left: 0;
+
+font-family: "kajiro";
+color: white;
+font-weight: 100;
+font-size: 11vw;
+
+
+ }
+
+#heroleft button{
+pointer-events: all;
+   padding: 1vw 4vw;
+   font-size : 4vw;
+   margin-top: 2vw ;
+   font-family: "kajiro";
+}
+#heroright {
+    display: flex;
+    flex-direction:column  ;
+    align-items: flex-end;
+   
+    color: white;
+}
+
+#heroright p {
+   /* margin-bottom: 50px; */
+font-size: 14px;
+font-weight: 300;
+   text-align: right;
+}
+
+#heroright #imgdiv {
+
+   width: 50%;
+   height: 170px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   background-image: url(judeus-samson-RbCtpHuJsSI-unsplash.jpg);
+   background-size: cover;
+   background-color: azure;
+   background-position: center;
+}
+
+
+#heroright p:nth-child(3){
+
+   margin-bottom: 100px;
+}
+
+#back img {
+
+   width: 100%;
+   height: 100vh;
+   object-fit: cover ;
+}
+
+
